@@ -2,8 +2,22 @@
   <HomePage />
 </template>
 
-<script setup>
+<script>
 import HomePage from "./views/HomePage.vue";
+
+export default {
+  name: "App",
+  components: {
+    HomePage,
+  },
+};
 </script>
 
-<style scoped></style>
+<style>
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+</style>
